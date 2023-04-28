@@ -1,0 +1,21 @@
+{
+  "slug": "G21957816",
+  "title": "Original DMG",
+  "description": "Refurbished original DMG and restored lost audio",
+  "shell": "Original OEM",
+  "original_condition": [
+    "Vertical lines",
+    "Corrosion on battery terminals",
+    "Cracked lens",
+    "corrosion on main board on game pak pins",
+    "Right ear phone gone due to lost traces"
+  ],
+  "work": [
+    "Fixed screen",
+    "Replaced plastic lens",
+    "Replaced terminals",
+    "Jumpers added to fix right ear"
+  ],
+  "images": ["../mods/none-3.jpg", "../mods/none-1.jpg", "../mods/none-2.jpg"],
+  "tags": []
+}

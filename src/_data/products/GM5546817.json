@@ -1,0 +1,16 @@
+{
+  "slug": "GM5546817",
+  "title": "Original DMG",
+  "description": "Refurbished original DMG - even originally came with a spider!",
+  "shell": "Original OEM",
+  "original_condition": ["Very yellowed", "Buttons didn't work"],
+  "work": [
+    "New battery terminals",
+    "Cleaned body & retrobrighten",
+    "Glass lens"
+  ],
+  "images": ["../mods/none-1.jpg", "b.jpg", "../mods/none-2.jpg", "spider.jpg"],
+  "available": true,
+  "listed": "2022-02-18",
+  "tags": ["glass"]
+}

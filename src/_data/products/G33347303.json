@@ -1,0 +1,31 @@
+{
+  "slug": "G33347303",
+  "shell": "Original OEM",
+  "title": "Backlight & bivert",
+  "description": "Originally Martin's Gameboy, much loved and very worn out, restored back to life (though sadly the football sticker sporting \"Martin\"'s name has been removed)",
+  "listed": "2022-03-21",
+  "available": true,
+  "price": "105",
+  "original_condition": [
+    "Light corrosion on terminals",
+    "Screen didn't work",
+    "Games didn't load"
+  ],
+  "work": [
+    "New battery contacts, battery connectors cleaned",
+    "Cartridge loader cleaned",
+    "Retro brightened",
+    "New volume wheel/potentiometer",
+    "Replaced external audio board",
+    "Backlight & bivert",
+    "Glass lens"
+  ],
+  "tags": ["backlight", "bivert", "glass"],
+  "images": [
+    "../mods/bivert.jpg",
+    "../mods/bivert-dark.jpg",
+    "a.jpg",
+    "b.jpg",
+    "c.jpg"
+  ]
+}

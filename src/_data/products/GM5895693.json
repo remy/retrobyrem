@@ -1,0 +1,27 @@
+{
+  "slug": "GM5895693",
+  "shell": "Original OEM",
+  "title": "IPS v5 Gameboy",
+  "description": "Contrast wheel doesn't work - which means brightness can't be changed and custom colours can't be modified (so discount applied). Note that preset can still be changed.",
+  "listed": "2022-03-14",
+  "available": true,
+  "price": "105",
+  "original_condition": [
+    "Horizontal and vertical lines on screen",
+    "Wouldn't power on - corrosion on negative battery terminal"
+  ],
+  "work": [
+    "New battery contacts, battery connectors cleaned",
+    "Glass lens",
+    "IPS V5 screen with 36 colour settings",
+    "Customisable colour settings"
+  ],
+  "images": [
+    "a.jpg",
+    "../mods/ips-0.jpg",
+    "../mods/ips-1.jpg",
+    "../mods/ips-2.jpg"
+  ],
+  "tags": ["ips", "glass"],
+  "discount": 5
+}

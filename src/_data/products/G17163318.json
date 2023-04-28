@@ -1,0 +1,24 @@
+{
+  "slug": "G17163318",
+  "shell": "Original OEM",
+  "title": "IPS v5 with loud amp!",
+  "listed": "2022-03-14",
+  "available": true,
+  "original_condition": [
+    "Horizontal and vertical lines on original screen",
+    "No sound"
+  ],
+  "work": [
+    "IPS V5 screen customisable colour and 36 presets",
+    "Amplifier mod for loud play",
+    "Glass lens",
+    "New battery contacts, battery connectors cleaned"
+  ],
+  "images": [
+    "../mods/ips-menu-1.jpg",
+    "../mods/ips-menu-2.jpg",
+    "../mods/ips-2.jpg",
+    "../mods/amp-ips.jpg"
+  ],
+  "tags": ["ips", "glass", "amp"]
+}

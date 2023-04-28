@@ -1,0 +1,42 @@
+---
+section: tag
+pagination:
+  data: tags
+  resolve: values
+  size: 1
+  alias: data
+  title: data.title
+permalink: tag/{{ data.tag }}/index.html
+title: data.title
+---
+
+<h1>Gameboys: {{ data.title }}</h1>
+
+<div class="flex-left">
+  <div class="container">
+  {{ data.description | markdown | safe }}
+  </div>
+
+  <div class="container">
+    {%- if data.available !== false and data.paypal %}
+
+    {% include "components/buy.njk" %}
+
+    {%- else %}
+
+    <h2>Currently unavailable</h2>
+    <p><a href="mailto:remy@remysharp.com?subject={{ data.tag }} Game Boy unavailable">Contact me</a> to register your interest, or ask any questions.</p>
+    {%- endif %}
+  </div>
+</div>
+
+<div class="product">
+  <div class="images">
+  {%- for url in tags[data.tag].images %}
+  <a href="/images/products/mods/{{ url }}" target="_blank">
+    <img width="320" src="/images/products/mods/{{ url }}" />
+  </a>
+
+  {%- endfor %}
+  </div>
+</div>

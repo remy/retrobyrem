@@ -1,0 +1,24 @@
+{
+  "unmodified": 50,
+  "backlight": 10,
+  "bivert": 5,
+  "amp": 10,
+  "glass": 0,
+  "ips": 40,
+  "game": 5,
+  "prosound": 5,
+  "shell": 10,
+  "total-unmodified": 60,
+  "total-backlight": 70,
+  "total-bivert": 75,
+  "total-amp": 60,
+  "total-ips": 100,
+  "total-gba": 120,
+  "total-prosound": 5,
+  "total-repair": 15,
+  "postage": {
+    "UK": 3.5,
+    "Europe": 12,
+    "US": 19
+  }
+}

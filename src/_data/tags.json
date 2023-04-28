@@ -46,7 +46,7 @@
     "images": ["gba/1.jpg", "gba/2.jpg", "gba/3.jpg", "gba/4.jpg"],
     "description": "Modded GBA with new shells, new buttons and brilliant crisp 1:1 ITA display.\n\nDisplay has the same display effect as the original AGS-101, without ghosting, better colors and brighter backlight.\n\nLowest battery consumption, memory for brightness setting with perfect support for NES games.",
     "stock": "3 colours: transparent, red, yellow",
-    "paypal": "G3TKBLYKCY5TN"
+    "_paypal": "G3TKBLYKCY5TN"
   },
 
   "prosound": {

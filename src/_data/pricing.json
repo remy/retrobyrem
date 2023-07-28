@@ -1,5 +1,6 @@
 {
   "unmodified": 50,
+  "unmodified-gbp": 40,
   "backlight": 10,
   "bivert": 5,
   "amp": 10,
@@ -9,6 +10,7 @@
   "prosound": 5,
   "shell": 10,
   "total-unmodified": 60,
+  "total-unmodified-gbp": 40,
   "total-backlight": 70,
   "total-bivert": 75,
   "total-amp": 60,
@@ -18,7 +20,7 @@
   "total-repair": 15,
   "postage": {
     "UK": 3.5,
-    "Europe": 12,
-    "US": 19
+    "Europe": 14,
+    "US": 24
   }
 }

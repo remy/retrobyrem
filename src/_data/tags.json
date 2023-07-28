@@ -2,8 +2,14 @@
   "ips": {
     "tag": "ips",
     "title": "Brilliant display IPS",
-    "images": ["ips/1.jpg", "ips/2.jpg", "ips/3.jpg", "ips/4.jpg"],
-    "description": "The Game Boy DMG IPS mod is 11% larger than the original LCD, low powered with customisable with 36 built in retro colour combinations and brightness control. This LCD is a formidable upgrade and has a full PCB replacement upgrading half of the entire contents of your Game Boy.\n\nAll models include a glass lens and are configurable from the original contrast wheel.\n\nThis is my personal favourite with the \"pixel mode\" enabled!\n\nNote that all these Game Boys are built on demand are on a first come first serve basis. I'll stay in touch via email to let you know the progress and with tracking details.\n\nCustom shells are also available: transparent, semi-transparent black, semi-transparent orange and blue - these are an additional £12, just email [remy@remysharp.com](mailto:remy@remysharp.com?subject=dmg shell upgrade)",
+    "images": [
+      "ips/0.jpg",
+      "ips/1.jpg",
+      "ips/3.jpg",
+      "ips/4.jpg",
+      "ips/shells.jpg"
+    ],
+    "description": "The Game Boy DMG IPS mod is 11% larger than the original LCD, low powered with customisable with 36 built in retro colour combinations and brightness control. This LCD is a formidable upgrade and has a full PCB replacement upgrading half of the entire contents of your Game Boy.\n\nAll models include a glass lens and are configurable from the original contrast wheel.\n\nThis is my personal favourite with the \"pixel mode\" enabled!\n\nNote that all these Game Boys are built on demand are on a first come first serve basis. I'll stay in touch via email to let you know the progress and with tracking details.\n\nCustom shells are also available: transparent, semi-transparent black, semi-transparent orange and blue - these are an additional £10, just email [remy@remysharp.com](mailto:remy@remysharp.com?subject=dmg%20shell%20upgrade)",
     "available": true,
     "paypal": "6M6CBPUNXDUQY"
   },
@@ -21,6 +27,15 @@
     "short": "bivert chip to increase contrast",
     "images": ["bivert.jpg"],
     "hide": true
+  },
+
+  "unmodified-gbp": {
+    "tag": "unmodified-gbp",
+    "title": "Unmodified Game Boy Pocket",
+    "images": ["pocket-1.jpg", "pocket-2.jpg", "pocket-3.jpg"],
+    "description": "An original unmodified Game Boy Pocket.\n\nRemember that the LCD display isn't as crisp as a new display (such as a mobile phone), however, all Game Boys have been internally and externally cleaned and where necessary, and shells are _used_ but in decent condition.\n\n**Available in three colours: black, green and gold** - first come, first serve.\n\nNote that this Game Boy does not include a game.",
+    "available": true,
+    "paypal": "SJJ8EZTK84BPA"
   },
 
   "unmodified": {

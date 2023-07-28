@@ -149,6 +149,7 @@ module.exports = function (eleventyConfig) {
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy('src/images/');
   eleventyConfig.addPassthroughCopy('src/js/');
+  eleventyConfig.addPassthroughCopy('static/');
 
   let opts = {
     permalink: true,

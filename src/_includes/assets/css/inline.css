@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Retro';
+  src: url('/static/APL386.ttf');
+}
+* {
+  font-family: 'Retro';
+  font-weight: unset;
+}
+
 :root {
   --primary-color: #d1d1d1;
   --secondary-color: #e3f5ed;
@@ -32,9 +41,10 @@ input[type='submit'] {
 }
 
 body {
-  background-color: #262626;
+  background-color: var(--bg-color); /* #262626;*/
   color: var(--primary-color);
-  font: 16px/1.5 'Consolas', monospace;
+  font: 18px/1.8 'Retro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
+    monospace;
   padding: 20px 40px;
 }
 
@@ -71,6 +81,18 @@ hr {
 
 canvas {
   margin: 40px 0;
+}
+
+#home body:before {
+  content: '';
+  width: 100%;
+  max-width: 740px;
+  height: 200px;
+  display: block;
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
 }
 
 .marginnote {
@@ -451,6 +473,7 @@ ul + h3 {
 
 strong {
   color: #e8e8e8;
+  color: #fff;
 }
 
 img.thumb {

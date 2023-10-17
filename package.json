@@ -14,7 +14,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.5.4",
     "luxon": "^1.0.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^13.0.2",
     "markdown-it-anchor": "^4.0.0"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "feather-icons": "^4.7.3",
     "html-minifier": "^3.5.19",
     "local-web-server": "^2.6.0",
+    "markdown-it-attrs": "^4.1.6",
     "markdown-it-named-headings": "^1.1.0",
     "uglify-js": "^3.4.5"
   }

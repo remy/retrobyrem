@@ -23,6 +23,7 @@
   {% if description %}
     <meta name="description" content="{{ description | safe }}">
   {% endif %}
+  <link rel="preload" href="/static/apl386-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}

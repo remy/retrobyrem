@@ -8,7 +8,9 @@ const markdown = markdownIt({
   html: true,
   breaks: true,
   linkify: true,
-}).use(require('markdown-it-named-headings'));
+})
+  .use(require('markdown-it-named-headings'))
+  .use(require('markdown-it-attrs'));
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('post', 'src/layouts/post.njk');

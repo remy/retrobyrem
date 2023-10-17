@@ -1,0 +1,30 @@
+Type,Serial,Internal code,Source,State,Work,Notes,Ready,Listed,nomods,ips,glass,amp,backlight,bivert,prosound,notes
+DMG,GM5546817,802-3901,Chiptune,"Totally yellow, buttons not registering, spider found inside with sand!","Clean, retrobrighten, contact clean, added glass lens",,y,y,,,y,,,,,
+"DMG (black, play it loud)",GH4308747,608-3702,Chiptune,Bit grubby,"Clean, new battery cover",,y,y,y,,,,,,,
+DMG,G18521966,,Chiptune,Yellow,"Clean, retrobrighten, contact clean",Find contents!,,,,,,,,,,
+Pocket green,,,Japan,"Dpad, battery contacts, dirty, screen burn, power glitchy","Cleaned, replacement screen",All cleaned - just need to clean power switch,y,,y,,,,,,,
+DMG,G21957816,602-301 / 009-270,Fourteen,"Vertical lines, corrosion on battery terminals, lens scratched, corrosion on main board on game pak pins. Right ear phone gone.","New lens, screen fix, clean terminals","Battery terminal points work. Right audio lost at exit to the ear socket - traces lost to corrosion, also need to remove entire daughter board and clean contacts.",y,y,y,,,,,,,
+Pocket yellow,,,Ebay,"Corruption, wouldn't load games, speaker broken","New speaker, rewire corroded joins and resoldered game pak pins",Contrast wheel very sensitive (fixed),y,,y,,,,,,,
+DMG (bare),G08072564,109-20 / 208-20,Chiptune,"Missing backlight, possible power to screen issue, missing speaker/","Capacitor fixed (caused flashing screen), backlight installed, new speaker added",Missing 2 h lines top,y,,,,,,y,y,,"missing 1px top pixel, plus shell is yellowed"
+DMG ext. pro sound,G28367504,208-20 / 109-20,Chiptune,"Pro sound broken, terminal corrosion, LCD wiring needed work, yellow.","Added bivert, LCD caps replaced, retrobrightened.",Need to replace C9 + C10 and test screen. Also need to rotate polarised filter (currently inverted). Select button not working,y,y,,,,,y,y,y,external pro sound
+DMG,G16964404,,Ebay,"Totally yellow, LCD vertical lines missing",Fixed screen and retrobrightened,,y,,y,,,,,,,
+GBA SP,XEH16045976,,Chiptune,Power and battery not charging,Upgraded to USBC charger,,y,,,,,,,,,
+DMG yellow,G28380039,610-3901,Chiptune,"Corossion on battery terminal, speaker doesn't work, speaker sound also not working - sound not coming out of amp (pin 20 on lcd display)",Corrosion on ear jack causing it to lock sound to ear out rather than switch to speaker. Also changed main board caps.,"Old serial: GM3675779. Sometimes screen looks bad, but it boots, and on reboot it's fine.",y,,y,,,,,,,
+DMG,G08026608,308-1211 / 004-19,Fourteen,Very yellow. Battery corrosion (won't start). Down dpad not working.,"Clean acid on terminals, retrobrighten",Terminals cleaned. Retrobrigthen in progress. Dpad working,y,,y,,,,,,,
+DMG,G17325092,201-20 / 108-20,Fourteen,"Screen vertical lines, corrosion on batteries.","Display fixed, corrosion removed.",,y,,y,,,,,,,
+DMG,GM5895693,306-29 / 007-0007,Fourteen,"Horizontal and vertical lines, corrosion on positive and missing spring on negative.","Contacts fixed. IPS added, glass lens",IPS,y,y,,y,y,,,,,
+DMG,G20946027,201-22 / 111-320,Fourteen,"Won't load carts, no speaker sound, right ear not working, battery terminal corrosion","Clean and sanded game pak connector, cleaned ear jack, removed terminals and cleaned","Sound working, and loading carts.",y,,y,,,,,,,"corrosion on game connector, be wary"
+DMG,G13870336,-,Ebay (bare parts),"Missing ribbon connector, corrosion on terminals, screen cancer, ear phone right ear missing","Cleared (mostly) screen, replaced screen connector, new terminals, added internal pro sound","Slightly faded text, mostly on A and B buttons",y,,,,,,,,y,"internal pro sound, but has light spots on screen"
+DMG,G05818353,- / 110-0007,Fourteen,"Heavy corrosion on game pak pins and back of main board. Board dead, LCD flashing - might need cap change…somewhere?","IPS screen, glass lens, new terminals",,y,,,y,y,,,,,
+DMG,G17163318,005-20 / 308-19,Fourteen,"No sound at all, battery corrosion, vertical lines (lots)","IPS screen, glass lens, new terminals, amp mod",IPS,y,y,,y,y,y,,,,
+DMG,G27555265,207-20 / 212-19,Fourteen,Light corrosion on battery terminals,"Replaced power regulator, new terminals, bivert and backlight and amp mod.",,y,,,,,y,y,y,,
+DMG,(martin) G33347303,07-20 / ~112-20~ 202-22,Fourteen,"Light corrosion on battery terminals, screen doesn't work - nothing appearing, and games don't load.",New LCD board - too corroded. New audio jack board added. Cleaned contacts on cart loader. New volume wheel. Backlight + bivert., ,y,y,,,,,y,y,,
+DMG,G20754325,,Fourteen,"Corrosion on battery, vertical line on screen",,,,,,,,,,,,
+DMG,G13241511,,Fourteen,Large corrosion on main board - not salvagable,,DEAD,,,,,,,,,,
+DMG,G32503846,203-22 / 407-3901,Fourteen,Can't power on (switch is stuck). Screen seems to overheat and then die... Corrosion on positive leg,Power fixed (plastic in the way).,IPS,y,,,y,y,,,,,
+DMG,G14794995,207-20 / 104-2703,Fourteen,"Heavy corrosion on terminals, no sound or very, very weak (possible cap change). Left ear failing.","Retrobrighten, clean terminals, audio jack clean. Fixed cold solder on power (causing power to be loose), backlight and bivert and glass lens",,y,,,,y,,y,y,,
+DMG,G13241511,012-22 LCD,Fourteen,"Corrosion on game pak, stiff power switch, won't turn on, tonne of horizontal lines",,IPS,,,,,,,,,,
+DMG,G28407354,605-3901,Fourteen,"Light corrosion on battery, left ear","Clean and corrosion cleaning. New terminals, IPS and glass lens",IPS,y,,,y,y,,,,,
+DMG,G33040340,407-19 / 407-19,Fourteen,"Power switch broken (in _on_ state), vertical lines on left, some corrosion. Vertical lines on left, start button not working","Switch replaced, terminals replaced. LCD replaced (had v. lines but fixed)",,y,,y,,,,,,,
+GBA AGB,,,Chiptune,"Power won't start, up and select and start don't work. Missing battery cover.",Power switch cleaned. New battery cover. Contacts cleaned and working.,Needs wash.,y,,,,,,,,,
+DMG,-,...208,Ebay?,Left ear very very quiet. Horizontal lines.,"Replaced volume pot, and replace LCD screen",,y,,y,,,,,,,

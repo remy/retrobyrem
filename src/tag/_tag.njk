@@ -14,19 +14,19 @@ title: data.title
 
 <div class="flex-left">
   <div class="container">
-  {{ data.description | markdown | safe }}
-  </div>
 
-  <div class="container">
     {%- if data.available !== false and data.paypal %}
 
     {% include "components/buy.njk" %}
 
     {%- else %}
-
-    <h2>Currently unavailable</h2>
-    <p><a href="mailto:remy@remysharp.com?subject={{ data.tag }} Game Boy unavailable">Contact me</a> to register your interest, or ask any questions.</p>
+    <div class="buy-block">
+      <h2>Currently unavailable</h2>
+      <p><a href="mailto:remy@remysharp.com?subject={{ data.tag }} Game Boy unavailable">Contact me</a> to register your interest, or ask any questions.</p>
+    </div>
     {%- endif %}
+  {{ data.description | markdown | safe }}
+
   </div>
 </div>
 

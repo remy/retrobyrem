@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'Retro';
-  src: url('/static/APL386.ttf');
+  src: url('/static/apl386-webfont.woff2');
+  font-display: swap;
 }
+
 * {
   font-family: 'Retro';
   font-weight: unset;
@@ -12,6 +14,14 @@
   --secondary-color: #e3f5ed;
   --link-color: #32b67a;
   --bg-color: #111;
+
+  --primary-color: #333;
+  --c-string: #000;
+  --secondary-color: #666;
+  --link-color: #306230;
+  --bg-color: #efefef;
+
+  --i-max-width: 820px;
 }
 
 [hidden] {
@@ -22,6 +32,11 @@
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
 }
 
 html,
@@ -41,6 +56,8 @@ input[type='submit'] {
 }
 
 body {
+  max-width: var(--i-max-width);
+  margin: 0 auto;
   background-color: var(--bg-color); /* #262626;*/
   color: var(--primary-color);
   font: 18px/1.8 'Retro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
@@ -50,6 +67,11 @@ body {
 
 h1 {
   letter-spacing: -0.8px;
+  line-height: 1.2;
+}
+
+h2 {
+  letter-spacing: -1px;
 }
 
 p {
@@ -61,14 +83,14 @@ li p {
   margin: 0;
 }
 
-a,
-a:visited {
+a:not(.buy),
+a:not(.buy):visited {
   color: var(--link-color);
 }
 
 img {
   width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 hr {
@@ -83,10 +105,11 @@ canvas {
   margin: 40px 0;
 }
 
-#home body:before {
+#home body:before,
+#info body:before {
   content: '';
   width: 100%;
-  max-width: 740px;
+  max-width: var(--i-max-width);
   height: 200px;
   display: block;
   background-image: url(/images/banner.jpg);
@@ -151,8 +174,12 @@ table th {
 }
 
 .container {
-  max-width: 740px;
+  max-width: var(--i-max-width);
   padding: 20px 0;
+}
+
+html#info h1 {
+  margin-bottom: 0;
 }
 
 #navigation {
@@ -425,7 +452,7 @@ pre[class*='language-'] {
 footer {
   max-width: 740px;
   margin-top: 80px;
-  color: #8e8d8d;
+  color: var(--secondary-color);
 }
 
 footer li {
@@ -453,12 +480,13 @@ ul + h3 {
   margin: 8px;
   border-radius: 4px;
   padding: 12px;
-  background: #1f1e1f;
+  background: rgba(0, 0, 0, 0.05);
   display: block;
 }
 
 .products li > a:hover {
   background: #434343;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
@@ -472,8 +500,7 @@ ul + h3 {
 }
 
 strong {
-  color: #e8e8e8;
-  color: #fff;
+  color: var(--c-strong);
 }
 
 img.thumb {
@@ -501,11 +528,15 @@ img.thumb {
 }
 
 .buy-block {
+  shape-outside: margin-box;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  float: right;
+
   max-width: 400px;
-  background: #1f1e1f;
+  background: rgba(0, 0, 0, 0.05);
   padding: 12px;
   border: 2px solid #bbd061;
-
   border-radius: 4px;
 }
 

@@ -152,6 +152,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images/');
   eleventyConfig.addPassthroughCopy('src/js/');
   eleventyConfig.addPassthroughCopy('static/');
+  eleventyConfig.addPassthroughCopy('_redirects');
 
   let opts = {
     permalink: true,

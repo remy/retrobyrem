@@ -1,0 +1,11 @@
+---
+section: shop
+title: The Shop
+layout: layouts/base-page.njk
+---
+
+
+{% for item in pagination.items %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+{% endfor %}

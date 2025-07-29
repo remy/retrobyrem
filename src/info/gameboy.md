@@ -1,6 +1,6 @@
 ---
 section: info
-title: Gameboy
+title: Game Boy
 layout: layouts/base-page.njk
 ---
 

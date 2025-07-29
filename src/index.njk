@@ -1,6 +1,6 @@
 ---
 section: home
-title: Retro By Rem
+title: retrobyrem.uk
 layout: layouts/base-page.njk
 pagination:
   data: tags
@@ -9,9 +9,9 @@ pagination:
   size: 1000
 ---
 
-<p>Welcome to my refurb project, currently focused on the Nintendo Gameboy. I've been working through a number of beaten up Gameboys to bring them back to life and into your hands to give them a new lease of fun.</p>
+<p>Welcome to my refurb project, currently focused on the Nintendo Game boy. I've been working through a number of beaten up Game boys to bring them back to life and into your hands to give them a new lease of fun.</p>
 
-<p>From this site you can pre-order a Gameboy, enquire about a custom build and ask me to fix your Gameboy or games.</p>
+<p>From this site you can pre-order a Game boy, enquire about a custom build and ask me to fix your Game boy or games.</p>
 
 <p><strong><a href="/tag/ips">IPS Game Boys</a> include Tetris (or Super Mario on request) whilst stock lasts!</strong></p>
 
@@ -20,7 +20,7 @@ pagination:
   {%- if t.hide != true %}
   <li class="product-card">
     <a href="/tag/{{ t.tag }}">
-    {{ t.title }} / £{{ pricing["total-" + t.tag] }}
+    <span>{{ t.title }} / £{{ pricing["total-" + t.tag] }}</span>
       {%- if t.images %}<img src="/images/products/mods/{{ t.images[0] }}">{%- endif %}
     </a>
   </li>

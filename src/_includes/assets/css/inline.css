@@ -1,12 +1,18 @@
-@font-face {
+/* @font-face {
   font-family: 'Retro';
   src: url('/static/apl386-webfont.woff2');
   font-display: swap;
-}
+} */
 
 * {
-  font-family: 'Retro';
+  /* font-family: 'Retro'; */
+  font-family: 'DM Sans', sans-serif;
   font-weight: unset;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
 :root {
@@ -15,11 +21,11 @@
   --link-color: #32b67a;
   --bg-color: #111;
 
-  --primary-color: #333;
+  --primary-color: #1d1d1d1;
   --c-string: #000;
   --secondary-color: #666;
   --link-color: #306230;
-  --bg-color: #efefef;
+  --bg-color: #f8f8f8;
 
   --i-max-width: 820px;
 }
@@ -60,14 +66,23 @@ body {
   margin: 0 auto;
   background-color: var(--bg-color); /* #262626;*/
   color: var(--primary-color);
-  font: 18px/1.8 'Retro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
-    monospace;
+  /* font-family: 'Retro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', */
+  /* monospace; */
   padding: 20px 40px;
+  font-size: 1.8rem;
 }
 
 h1 {
-  letter-spacing: -0.8px;
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
   line-height: 1.2;
+  text-shadow: 2px 2px 0px red, 4px 4px 0px yellow;
+  font-size: clamp(3rem, 10vw, 8rem);
+  text-transform: lowercase;
+  margin: 0;
 }
 
 h2 {
@@ -75,8 +90,10 @@ h2 {
 }
 
 p {
-  line-height: 28px;
+  line-height: 1.4;
   margin: 16px 0;
+  text-wrap: pretty;
+  font-weight: 500;
 }
 
 li p {
@@ -86,6 +103,7 @@ li p {
 a:not(.buy),
 a:not(.buy):visited {
   color: var(--link-color);
+  font-weight: 600;
 }
 
 img {
@@ -106,7 +124,8 @@ canvas {
 }
 
 #home body:before,
-#info body:before {
+#info body:before,
+body:before {
   content: '';
   width: 100%;
   max-width: var(--i-max-width);
@@ -196,9 +215,11 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+  font-weight: 600;
 }
 
 .post-item {
@@ -247,7 +268,13 @@ nav ul li {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 10px;
+    padding: 0;
+  }
+
+  main,
+  header,
+  footer {
+    padding: 0 20px;
   }
 }
 
@@ -388,8 +415,9 @@ pre[class*='language-'] {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
 .product aside {
@@ -398,14 +426,19 @@ pre[class*='language-'] {
 
 .product .images li {
   padding: 0;
-  margin: 8px;
+  margin: 0;
+}
+
+.product .images a {
+  display: block;
 }
 
 .product .images img {
-  max-width: 320px;
+  /* max-width: 320px; */
   border-radius: 4px;
-  border: 2px solid #e3f5ed;
-  margin: 8px;
+  display: block;
+  /* border: 2px solid #e3f5ed; */
+  /* margin: 8px; */
 }
 
 .details {
@@ -458,6 +491,7 @@ footer {
   max-width: 740px;
   margin-top: 80px;
   color: var(--secondary-color);
+  font-size: 1.4rem;
 }
 
 footer li {
@@ -471,22 +505,32 @@ ul + h3 {
 
 .products {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  row-gap: 24px;
   margin: 0;
   padding: 0;
 }
 
 .product-card {
-  width: 50%;
+  height: 100%;
+}
+
+.products li > a span {
+  padding: 12px;
 }
 
 .products li > a {
-  margin: 8px;
   border-radius: 4px;
-  padding: 12px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.05);
   display: block;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.2;
 }
 
 .products li > a:hover {
@@ -534,19 +578,27 @@ img.thumb {
 
 .buy-block {
   shape-outside: margin-box;
-  margin-bottom: 12px;
-  margin-left: 12px;
-  float: right;
+  margin-bottom: 48px;
+  /* margin-left: 12px; */
+  /* float: right; */
 
-  max-width: 400px;
+  /* max-width: 400px; */
   background: rgba(0, 0, 0, 0.05);
   padding: 12px;
   border: 2px solid #bbd061;
   border-radius: 4px;
 }
 
+.buy-block h2 {
+  font-size: 2rem;
+}
+
 .buy-block > :first-child {
   margin-top: 0;
+}
+
+.buy-block > :last-child {
+  margin-bottom: 0;
 }
 
 .flex-left {
@@ -564,4 +616,8 @@ img.thumb {
   .flex-left {
     flex-direction: column;
   }
+}
+
+img[width='1'] {
+  position: absolute;
 }

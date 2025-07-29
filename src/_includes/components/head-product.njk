@@ -23,6 +23,7 @@
   {% if summary %}
     <meta name="description" content="{{ summary | safe }}">
   {% endif %}
+  {% include "components/font.njk" %}
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}

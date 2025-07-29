@@ -10,9 +10,11 @@ permalink: tag/{{ data.tag }}/index.html
 title: data.title
 ---
 
-<h1>Gameboys: {{ data.title }}</h1>
 
-<div class="flex-left">
+<div class="container">
+  <h1>{{ data.title }}</h1>
+</div>
+<div>
   <div class="container">
 
     {%- if data.available !== false and data.paypal %}
@@ -21,7 +23,6 @@ title: data.title
 
     {%- else %}
     <div class="buy-block">
-      <h2>Currently unavailable</h2>
       <p><a href="mailto:remy@remysharp.com?subject={{ data.tag }} Game Boy unavailable">Contact me</a> to register your interest, or ask any questions.</p>
     </div>
     {%- endif %}

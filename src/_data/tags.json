@@ -3,11 +3,11 @@
     "tag": "ips",
     "title": "Brilliant display IPS",
     "images": [
-      "ips/0.jpg",
-      "ips/1.jpg",
-      "ips/3.jpg",
-      "ips/4.jpg",
-      "ips/shells.jpg"
+      "ips/0.jpg.avif",
+      "ips/1.jpg.avif",
+      "ips/3.jpg.avif",
+      "ips/4.jpg.avif",
+      "ips/shells.jpg.avif"
     ],
     "description": "The Game Boy DMG IPS mod is 11% larger than the original LCD, low powered with customisable with 36 built in retro colour combinations and brightness control. This LCD is a formidable upgrade and has a full PCB replacement upgrading half of the entire contents of your Game Boy.\n\nAll models include a glass lens and are configurable from the original contrast wheel.\n\nThis is my personal favourite with the \"pixel mode\" enabled!\n\nNote that all these Game Boys are built on demand are on a first come first serve basis. I'll stay in touch via email to let you know the progress and with tracking details.\n\nCustom shells are also available: transparent, semi-transparent black, semi-transparent orange and blue - these are an additional £10, just email [remy@remysharp.com](mailto:remy@remysharp.com?subject=dmg%20shell%20upgrade)",
     "available": true,
@@ -18,7 +18,7 @@
   "backlight": {
     "tag": "backlight",
     "title": "Backlit",
-    "images": ["backlight-green.jpg"],
+    "images": ["backlight-green.jpg.avif"],
     "hide": true
   },
 
@@ -26,14 +26,14 @@
     "tag": "bivert",
     "title": "Backlight & Bivert",
     "short": "bivert chip to increase contrast",
-    "images": ["bivert.jpg"],
+    "images": ["bivert.jpg.avif"],
     "hide": true
   },
 
   "unmodified-gbp": {
     "tag": "unmodified-gbp",
     "title": "Unmodified Game Boy Pocket",
-    "images": ["pocket-1.jpg", "pocket-2.jpg", "pocket-3.jpg"],
+    "images": ["pocket-1.jpg.avif", "pocket-2.jpg.avif", "pocket-3.jpg.avif"],
     "description": "An original unmodified Game Boy Pocket.\n\nRemember that the LCD display isn't as crisp as a new display (such as a mobile phone), however, all Game Boys have been internally and externally cleaned and where necessary, and shells are _used_ but in decent condition.\n\n**Available in three colours: black, green and gold** - first come, first serve.\n\nNote that this Game Boy does not include a game.",
     "available": true,
     "paypal": "SJJ8EZTK84BPA"
@@ -42,7 +42,7 @@
   "unmodified": {
     "tag": "unmodified",
     "title": "Unmodified DMG",
-    "images": ["none-1.jpg", "none-2.jpg", "none-3.jpg", "none-4.jpg"],
+    "images": ["none-1.jpg.avif", "none-2.jpg.avif", "none-3.jpg.avif", "none-4.jpg.avif"],
     "description": "An unmodified Game Boy will be without any modifications, such as on the screen or sound.\n\nRemember that the LCD display is hard to see without direct light (which is where the [IPS is an excellent mod](/tags/ips/)), however, all Game Boys have been internally and externally cleaned and where necessary, new battery terminals installed.",
     "_paypal": "J9RCHZ4BC3CWA"
   },
@@ -51,7 +51,7 @@
     "tag": "amp",
     "title": "With speaker amp",
     "short": "speaker amplifier",
-    "images": ["amp.jpg"],
+    "images": ["amp.jpg.avif"],
     "description": "The amp replaces the original audio amplifier and speaker of the Game Boy Original with a modern smooth and crazy loud class D amplifier and speaker.\n\nThis makes your handheld feels like it packs a punch. The speaker is incredibly loud, and you can feel the vibrations through the handheld.",
     "hide": true
   },
@@ -59,7 +59,7 @@
   "gba": {
     "tag": "gba",
     "title": "Modded Game Boy Advance",
-    "images": ["gba/1.jpg", "gba/2.jpg", "gba/3.jpg", "gba/4.jpg"],
+    "images": ["gba/1.jpg.avif", "gba/2.jpg.avif", "gba/3.jpg.avif", "gba/4.jpg.avif"],
     "description": "Modded GBA with new shells, new buttons and brilliant crisp 1:1 ITA display.\n\nDisplay has the same display effect as the original AGS-101, without ghosting, better colors and brighter backlight.\n\nLowest battery consumption, memory for brightness setting with perfect support for NES games.",
     "stock": "3 colours: transparent, red, yellow",
     "_paypal": "G3TKBLYKCY5TN"
@@ -68,14 +68,14 @@
   "prosound": {
     "tag": "prosound",
     "title": "Prosound mod",
-    "images": ["prosound-3.jpg"],
+    "images": ["prosound-3.jpg.avif"],
     "description": "The stock GB comes with both a headphone mini-jack and a small speaker. This is fine for playing games. However when it comes to recording audio from the headphone output, the signal is actually weak and noisy.\n\nGB musician/hacker _Trash80_ is credited to have been the first to publish a modification where the **audio is directly taken at the line source**, before the headphone amplification. This **much cleaner** signal is then redirected to an external connection (mini-jack, jack, RCA, etc). This is what is called a Pro Sound mod."
   },
 
   "repair": {
     "tag": "repair",
     "title": "Repair your Game Boy",
-    "images": ["repair/1.jpg", "repair/2.jpg", "repair/3.jpg"],
+    "images": ["repair/1.jpg.avif", "repair/2.jpg.avif", "repair/3.jpg.avif"],
     "description": "There's so much pleasure if restoring an old gaming device to it's original self for a new era of loving game play. If you've got a faulty Game Boy - either classic, colour or advanced, get in touch and there's a good chance I can fix it for you. We can even discuss mods if you like.\n\nA repair will require that you send your device to me, and I'll keep in touch to let you know what the progress is.",
     "paypal": "2ADBMTL8J9LQ2"
   }

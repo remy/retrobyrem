@@ -131,7 +131,7 @@ body:before {
   max-width: var(--i-max-width);
   height: 200px;
   display: block;
-  background-image: url(/images/banner.jpg);
+  background-image: url(/images/banner.jpg.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 50%;

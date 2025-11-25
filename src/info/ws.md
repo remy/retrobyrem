@@ -15,4 +15,4 @@ Having expanded out from the Game Boy, the WonderSwan is a wonderful handheld, b
 
 <a href="mailto:remy@remysharp?subject=WS+Enquiry" class="buy">Enquire now</a>
 
-![](/images/products/ws-carts.jpg)
+![](/images/products/ws-carts.jpg.avif)

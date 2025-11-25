@@ -22,4 +22,4 @@ With several years experience modding and refurbishing Game Boy's, I can confide
 
 <a href="mailto:remy@remysharp?subject=DMG+Enquiry" class="buy">Enquire now</a>
 
-![](/images/products/mods/repair/1.jpg)
+![](/images/products/mods/repair/1.jpg.avif)
